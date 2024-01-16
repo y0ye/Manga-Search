@@ -10,11 +10,56 @@ body{
     background-color: #000000;
 }
 
+@media only screen and (max-width: 600px) {
+    header h1{
+        font-size:x-large; /* Adjust font size for smaller screens */
+    }
+
+    header img{
+        padding-bottom: 10px;
+
+    }
+
+    header form{
+        display: none;
+    }
+  }
+
+
 header{
-    padding: 30px;
     display: flex;
-    justify-content: flex-end;
+    text-align: center;
+    justify-content: space-between;
     background-color: #1b2c50;
+}
+
+header form{
+    padding:3%;
+    width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    padding-top:25px;
+
+    min-width: 10px;
+    min-height: 10px;
+}
+
+header img{
+    max-height: 125px;
+    max-width: 125px;
+    margin-left: 50px;
+    padding-top: 20px
+}
+
+header h1{
+    font-weight: lighter;
+    color: white;
+
+    margin: 20px;
+    padding: 20px;
+    padding-top:30px;
+   
+    position: relative;
 }
 
 .search{
@@ -27,6 +72,11 @@ header{
     font-family: 'Raleway';
     font-size: large;
     text-align: center;
+}
+
+.search:hover
+{
+    box-shadow: 0px 0px 20px #FCA311
 }
 
 ::placeholder{
