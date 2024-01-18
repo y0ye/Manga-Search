@@ -10,9 +10,7 @@
     <header>
         <img id="logoImg" name="logoImg" src="logo.png">
         <h1>Home Page: Top 25</h1>
-        <form id="inputForm">
-            <input type="text" placeholder="Enter A Title" name="search" id="search" class="search">
-        </form>
+        <a href="searchPage.html">Search Page</a>
     </header>
 
     <main id="main">
@@ -25,6 +23,13 @@
         </div>
     </main>
 
-    <script src="scripts.js"></script>
+    <script src="topManga.js" type="text/javascript"></script>
+    <script>
+        fetchTopManga();
+    </script>
 </body>
 </html>
+
+<form id="inputForm">
+    <input type="text" placeholder="Enter A Title" name="search" id="searchForm" class="search">
+</form>
