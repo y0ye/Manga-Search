@@ -1,6 +1,6 @@
 https://y0ye.github.io/website/
 
-Scuffed but works.
+Landing page is the current top 25 manga.
 
 API fetch calls are limited, so when searching it takes awhile (not good). Not the best solution, but I created artificial delay between fetches to prevent fetch errors.
 
