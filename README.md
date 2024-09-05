@@ -13,4 +13,4 @@ For testing: When on the search page, type "Naruto" in the search box.
 * API calls are made with the SFW filter automatically applied(safe for work), but sometimes NSFW (not safe for work) results manage to get by the API's Filtering. So I would refrain from testing when in a social setting. I'm working on a fix
 ***************************************************************************************************************************************************************************************************************************************************
 
-https://y0ye.github.io/website/
+https://y0ye.github.io/Manga-Search/
